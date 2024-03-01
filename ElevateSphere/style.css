@@ -13,7 +13,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background: url(/Sphere/Assets/background)no-repeat;
+    background: url(/ElevateSphere/Assets/background.avif)no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -54,7 +54,7 @@ header .navigation a:not(:last-child) {
 }
 
 header .navigation a:hover {
-    background: #9FCFF3;
+    background: #88e1f3;
 }
 
 .content {
@@ -101,7 +101,7 @@ header .navigation a:hover {
 }
 
 .content .info-btn:hover {
-    background: #9FCFF3;
+    background: #88e1f3;
 }
 
 .social-icons {
@@ -212,7 +212,7 @@ label {
 }
 
 .testimonials {
-    background: url(/Sphere/Assets/testimonial-bg.avif)no-repeat;
+    background: url(/ElevateSphere/Assets/testimonial-bg.avif)no-repeat;
     background-size: cover;
     background-position: center;
     min-height: 100vh;
