@@ -22,10 +22,11 @@ header {
     position: relative;
     top: 0;
     width: 100%;
-    padding: 30px 100px;
+    padding: 10px 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
 }
 
 header .logo {
@@ -59,7 +60,8 @@ header .navigation a:hover {
 
 .content {
     max-width: 650px;
-    margin:60px 100px;
+    margin: 150px 100px;
+    
 }
 
 .content .info h2 {
@@ -211,7 +213,7 @@ label {
     width: 2.25em;
 }
 
-.testimonials {
+#testimonials {
     background: url(/ElevateSphere/Assets/testimonial-bg.avif)no-repeat;
     background-size: cover;
     background-position: center;
@@ -299,24 +301,24 @@ label {
 }
 
 /* Styles for CTA section */
-.cta {
+#cta {
     background-color: #056ab8;
     color: #fff;
     padding: 4em 0;
     text-align: center;
 }
 
-.cta .container {
+#cta .container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.cta h2 {
+#cta h2 {
     margin-bottom: 1em;
 }
 
-.cta p {
+#cta p {
     margin-bottom: 2em;
 }
 
@@ -331,7 +333,7 @@ label {
     font-weight: 600;
 }
 
-.cta-button:hover {
+#cta-button:hover {
     background-color: #eee;
 }
 
